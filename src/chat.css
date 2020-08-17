@@ -1,0 +1,88 @@
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.box-blue{
+  background-color: #387ef5;
+  color: #FFF;
+  margin: 10px 80px;
+  position: relative;
+  background: #387ef5;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+}
+/* .box-blue:after, .box-blue:before {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  position: absolute;
+  pointer-events: none;
+}
+
+.box-blue:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-left-color: #387ef5;
+  border-width: 11px;
+  margin-top: -10px;
+} */
+
+
+.box-silver {
+  background-color: silver;
+  color: #FFF;
+  margin: 10px 80px;
+  position: relative;
+  background: silver;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.msg-container{
+  height: 70vh;
+  overflow-y:scroll;
+  background-color: white;
+}
+
+.msg-label{
+  background-color: #387ef5;
+  color: #FFF;
+  z-index: 2;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.content {
+  margin: 0 50px;
+}
+
+/*
+  File Input
+*/
+.file_input{
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.file_input + span {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: white;
+  background-color: black;
+  display: inline-block;
+}
